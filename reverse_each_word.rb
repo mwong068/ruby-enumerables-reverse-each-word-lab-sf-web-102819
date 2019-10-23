@@ -4,5 +4,5 @@ def reverse_each_word(string)
   temp.each do |word|
     result.push(word.reverse)
   end
-  result.to_s
+  result.join
 end
